@@ -1,0 +1,74 @@
+
+{
+
+    "warnings": {
+          "parse": {
+                "*": "No \"title\" or \"contentmodel\" was given, assuming wikitext."
+          }
+    },
+    "parse": {
+          "title": "API",
+          "pageid": 0,
+          "text": {
+                "*": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n «\n \n Mi devas resti sola kaj scii, ke mi estas sola por observi kaj senti naturon plene; Mi devas kapitulaci je tio, kio ĉirkaŭas min, mi devas kunfandiĝi kun miaj nuboj kaj rokoj por esti tio, kio mi estas.\n \n »\n \n Caspar David Friedrich (1774-1840)germana romantikista pentristo kaj pejzaĝisto\n \n\n\n\n"
+          },
+          "langlinks": [ ],
+          "categories": [ ],
+          "links": [
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Caspar David Friedrich"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Naturo"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Scio"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Soleco"
+                }
+          ],
+          "templates": [
+                {
+                      "ns": 4,
+                      "exists": "",
+                      "*": "Vikicitaro:Citaĵo de la tago/CDLT"
+                },
+                {
+                      "ns": 4,
+                      "exists": "",
+                      "*": "Vikicitaro:Citaĵo de la tago/5-a de septembro"
+                },
+                {
+                      "ns": 10,
+                      "exists": "",
+                      "*": "Ŝablono:Citaĵo de la tago"
+                }
+          ],
+          "images": [
+                "Caspardavidfriedrich_self1.jpg",
+                "Left_pointing_double_angle_quotation_mark_sh1.svg",
+                "Right_pointing_double_angle_quotation_mark_sh1.svg"
+          ],
+          "externallinks": [ ],
+          "sections": [ ],
+          "parsewarnings": [ ],
+          "displaytitle": "API",
+          "iwlinks": [ ],
+          "properties": [
+                {
+                      "name": "unexpectedUnconnectedPage",
+                      "*": 0
+                }
+          ]
+    }
+
+}

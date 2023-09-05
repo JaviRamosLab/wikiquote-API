@@ -1,0 +1,69 @@
+
+{
+
+    "warnings": {
+          "parse": {
+                "*": "No \"title\" or \"contentmodel\" was given, assuming wikitext."
+          }
+    },
+    "parse": {
+          "title": "API",
+          "pageid": 0,
+          "text": {
+                "*": " \n  \n    \n      \n      \n      \n      \n    \n    \n        \n      \n  \n          \n          \n        \n        «\n      \n        Si tienes que preguntarlo [¿qué es el jazz?], nunca lo sabrás\n      \n        »\n      \n          Louis ArmstrongTrompetista de jazz estadounidense (1901-1971).\n        \n\n\n\n\n"
+          },
+          "langlinks": [ ],
+          "categories": [ ],
+          "links": [
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Estados Unidos"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Jazz"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Louis Armstrong"
+                },
+                {
+                      "ns": 0,
+                      "exists": "",
+                      "*": "Trompeta"
+                }
+          ],
+          "templates": [
+                {
+                      "ns": 10,
+                      "exists": "",
+                      "*": "Plantilla:Frase-sábado"
+                },
+                {
+                      "ns": 10,
+                      "exists": "",
+                      "*": "Plantilla:CitaDía"
+                }
+          ],
+          "images": [
+                "Louis_Armstrong_restored.jpg",
+                "Left_pointing_double_angle_quotation_mark_sh1.svg",
+                "Right_pointing_double_angle_quotation_mark_sh1.svg"
+          ],
+          "externallinks": [ ],
+          "sections": [ ],
+          "parsewarnings": [ ],
+          "displaytitle": "API",
+          "iwlinks": [ ],
+          "properties": [
+                {
+                      "name": "unexpectedUnconnectedPage",
+                      "*": 0
+                }
+          ]
+    }
+
+}

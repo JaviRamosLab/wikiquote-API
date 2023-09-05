@@ -1,63 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/corner.css" rel="stylesheet" type="text/css">
     <title>Wikiquote API</title>
 </head>
+
 <body>
     <h1>Wikiquote API - Quote Of The Day (QOTD)</h1>
-    <p>At the moment active in # languages</p>
-
+    <p>At the moment exist in 10 languages (en, it,es, eo, pt, fr, as, da, fa, sq)</p>
+    <p>At the moment active in 6 languages (en, it,es, eo, pt, fr), unfinished in 4 (as, da, fa, sq)</p>
 
     <h2>English Wikiquote (en.wikiquote.org)</h2>
-    https://en.wikiquote.org/wiki/Template:QoD
-    https://en.wikiquote.org/wiki/Category:Quote_of_the_day
+    <p>https://en.wikiquote.org/wiki/Template:QoD</p>
+    <p><a href="https://en.wikiquote.org/wiki/Category:Quote_of_the_day">Category:Quote of the day</a></p>
+    </p>
+    <p>Endpoint:</p>
+    <code>https://en.wikiquote.org/w/api.php?format=json&action=parse&page=Template:QoD</code>
 
     <h2>Spanish Wikiquote (es.wikiquote.org)</h2>
     <p>Spanish wikiquote (Quote Of The Day) API call</p>
-    <p><a href="ttps://es.wikiquote.org/wiki/Wikiquote:Frase_del_día">Wikiquote:Frase del día</a></p>
-    Categoría:Wikiquote:Frase del día
-    https://es.wikiquote.org/wiki/Categoría:Wikiquote:Frase_del_día
+    <p><a href="https://es.wikiquote.org/wiki/Wikiquote:Frase_del_día">Wikiquote:Frase del día</a></p>
+    <p><a href="https://es.wikiquote.org/wiki/Wikiquote:Frase_del_día/Frase_del_día">Wikiquote:Frase del día/Frase_del_día</a></p>
+
+    <p></p>Categoría:Wikiquote:Frase del día</p>
+    <p><a href="https://es.wikiquote.org/wiki/Categoría:Wikiquote:Frase_del_día">Categoría:Wikiquote:Frase del día</a></p>
+    <p>Endpoint:</p>
+    <code>{{Frase-{{CURRENTDAYNAME}}}}</code>
+    <code></code>
+    <code>https://es.wikiquote.org/w/api.php?format=json&action=parse&page=Wikiquote:Frase_del_día/Frase_del_día</code>
 
     <h2>Esperanto Wikiquote (eo.wikiquote.org)</h2>
     <p>Esperanto wikiquote (Quote Of The Day) API call</p>
-    <li><a href="https://eo.wikiquote.org/wiki/Vikicitaro:Citaĵo_de_la_tago">Vikicitaro:Citaĵo de la tago</a></li>
-    <li>Today QOTD <a href="https://eo.wikiquote.org/wiki/Vikicitaro:QOTD">Vikicitaro:QOTD</a></li>
+    <p><a href="https://eo.wikiquote.org/wiki/Vikicitaro:Citaĵo_de_la_tago">Vikicitaro:Citaĵo de la tago</a></p>
+    <p>Today QOTD <a href="https://eo.wikiquote.org/wiki/Vikicitaro:Citaĵo_de_la_tago/CDLT">Vikicitaro:Citaĵo_de_la_tago/CDLT</a>
+    </p>
     <p>Endpoint:</p>
-    <code>https://eo.wikiquote.org/w/api.php?action=parse&text={{Vikicitaro:Citaĵo_de_la_tago/1-a_de_septembro}}&format=json</code>
+    <!-- <code>https://eo.wikiquote.org/w/api.php?action=parse&text={{Vikicitaro:Citaĵo_de_la_tago/CDLT}}&format=json</code> -->
+    <code>https://eo.wikiquote.org/w/api.php?format=json&action=parse&page=Vikicitaro:Citaĵo_de_la_tago/CDLT</code>
 
     <h2>it</h2>
-    Categoria:Servizi - Citazione del giorno
+    <p>Categoria:Servizi - Citazione del giorno</p>
     https://it.wikiquote.org/wiki/Categoria:Servizi_-_Citazione_del_giorno
 
-    Tutte le citazioni del giorno‎ (368 P)
+    <p>Tutte le citazioni del giorno‎ (368 P)</p>
     https://it.wikiquote.org/wiki/Categoria:Tutte_le_citazioni_del_giorno
 
-    https://it.wikiquote.org/wiki/Template:Qotd
+    https://it.wikiquote.org/wiki/Categoria:Servizi_-_Citazione_del_giorno
+
+    <p><a href="https://it.wikiquote.org/wiki/Template:Qotd">Template:Qotd</a></p>
+    <p>Endpoint:</p>
+    <code>https://it.wikiquote.org/w/api.php?format=json&action=parse&page=Template:Qotd</code>
 
     <h2>fr</h2>
-    Catégorie:Citation du jour
+    <p>Wikiquote:Citation du jour</p>
+    <p><a href="https://fr.wikiquote.org/wiki/Wikiquote:Citation_du_jour">Wikiquote:Citation du jour</a></p>
+
+    <p>Catégorie:Citation du jour</p>
     https://fr.wikiquote.org/wiki/Catégorie:Citation_du_jour
+
+    <p>Modèle:Citation du jour</p>
+    <p><a href="https://fr.wikiquote.org/wiki/Modèle:Citation_du_jour">Modèle:Citation du jour</a></p>
+    <p>Endpoint:</p>
+    <code>https://fr.wikiquote.org/w/api.php?format=json&action=parse&page=Modèle:Citation_du_jour</code>
 
 
     <h2>pt</h2>
-    Categoria:!Predefinições de Frase do dia
+    <p>Wikiquote:Frase_do_dia</p>
+    <p><a href="https://pt.wikiquote.org/wiki/Wikiquote:Frase_do_dia">Wikiquote:Frase do dia</a></p>
+
+    <p>Categoria:!Predefinições de Frase do dia</p>
     https://pt.wikiquote.org/wiki/Categoria:!Predefinições_de_Frase_do_dia
 
-    https://pt.wikiquote.org/wiki/Wikiquote:Frase_do_dia
+    <p>Endpoint:</p>
+    <code>{{frase do dia/{{CURRENTDAY}} de {{CURRENTMONTHNAME}}}}</code>
+    <code>https://pt.wikiquote.org/wiki/Predefinição:Frase_do_dia/1_de_janeiro</code>
+    <code>https://pt.wikiquote.org/w/api.php?format=json&action=parse&page=Wikiquote:Frase_do_dia</code>
+
+
+    <h2>zh</h2>
+    <p>Wikiquote:每日名言</p>
+    <p><a href="https://zh.wikiquote.org/wiki/Wikiquote:每日名言">Wikiquote:每日名言</a></p>
+
+    <p></p>
+    <p><a href="https://zh.wikiquote.org/wiki/Template:Qotd">Template:Qotd</a></p>
+    <p>Endpoint:</p>
+    <code>https://zh.wikiquote.org/w/api.php?format=json&action=parse&page=Template:Qotd</code>
+
 
     <h1>Others</h1>
-    https://as.wikiquote.org/wiki/%E0%A6%B6%E0%A7%8D%E0%A7%B0%E0%A7%87%E0%A6%A3%E0%A7%80:%E0%A6%86%E0%A6%9C%E0%A6%BF%E0%A7%B0_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%83%E0%A6%A4%E0%A6%BF
-    https://da.wikiquote.org/wiki/Kategori:Dagens_citat
-    https://fa.wikiquote.org/wiki/%D8%B1%D8%AF%D9%87:%D9%86%D9%82%D9%84%E2%80%8C%D9%82%D9%88%D9%84_%D8%B1%D9%88%D8%B2
-    https://fr.wikiquote.org/wiki/Cat%C3%A9gorie:Citation_du_jour
-    https://it.wikiquote.org/wiki/Categoria:Servizi_-_Citazione_del_giorno
-    https://pt.wikiquote.org/wiki/Categoria:!Predefini%C3%A7%C3%B5es_de_Frase_do_dia
-    https://sq.wikiquote.org/wiki/Kategoria:Citati_i_dit%C3%ABs
+    <li>https://as.wikiquote.org/wiki/%E0%A6%B6%E0%A7%8D%E0%A7%B0%E0%A7%87%E0%A6%A3%E0%A7%80:%E0%A6%86%E0%A6%9C%E0%A6%BF%E0%A7%B0_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%83%E0%A6%A4%E0%A6%BF
+    </li>
+    <li>https://da.wikiquote.org/wiki/Kategori:Dagens_citat</li>
+    <li>https://fa.wikiquote.org/wiki/%D8%B1%D8%AF%D9%87:%D9%86%D9%82%D9%84%E2%80%8C%D9%82%D9%88%D9%84_%D8%B1%D9%88%D8%B2
+    </li>
+    <li>https://sq.wikiquote.org/wiki/Kategoria:Citati_i_dit%C3%ABs</li>
+    <li>hu - </li>
 
+    <li>as - </li>
+    <li>da - </li>
+    <li>fa - <a href="https://fa.wikiquote.org/wiki/ویکی‌گفتاورد:نقل‌قول_روز">fa</a></li>
+    <li>sq - </li>
+    <li>tr - <a href="https://tr.wikiquote.org/wiki/Vikisöz:Günün_sözü">Vikisöz:Günün_sözü</a></li>
+    <li>sv - <a href="https://sv.wikiquote.org/wiki/Wikiquote:Veckans_citat">Wikiquote:Veckans_citat</a></li>
+    <li>su - <a href="https://su.wikiquote.org/wiki/Wikiquote:Cutatan_poé_ieu">su</a></li>
+    <li>he - <a href="https://he.wikiquote.org/wiki/ויקיציטוט:מיזם_ציטוט_היום">he</a></li>
+    <li>fi - <a href="https://fi.wikiquote.org/wiki/Wikisitaatit:Viikon_sitaatti">fi</a></li>
+    <li>et - <a href="https://et.wikiquote.org/wiki/Vikitsitaadid:Päeva_tsitaadid">et</a></li>
+    <li>bn - <a href="https://bn.wikiquote.org/wiki/উইকিউক্তি:আজকের_উক্তি">bn</a></li>
+    <li>ar - <a href="https://ar.wikiquote.org/wiki/ويكي_الاقتباس:اقتباسات_مختارة">ar</a></li>
 
-	<script src="app.js"></script>
+    <script src="app.js"></script>
+    <a href="https://github.com/javiramoslab/Wikiquote-API" class="github-corner" aria-label="View source on GitHub">
+        <svg width="80" height="80" viewBox="0 0 250 250" style="position: absolute; top: 0px; right: 0px; border: 0px;" aria-hidden="true">
+          <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" fill="#151513"></path>
+          <path class="octo-arm" d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="#ffffff" style="transform-origin: 130px 106px;"></path>
+          <path class="octo-body" d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="#ffffff"></path>
+        </svg>
+    </a>
 </body>
+
 </html>
