@@ -1,34 +1,44 @@
 Wikiquote API - Quote Of The Day (QOTD)
 =====================
 
-___Free unlimited quote API___
-
-Fetch info from Wikiquote API's 
-
 ## Badges
 [![GitHub forks](https://img.shields.io/github/forks/JaviRamosLab/Wikiquote-API?branch=master&label=Forks&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
 [![GitHub stars](https://img.shields.io/github/stars/JaviRamosLab/Wikiquote-API?branch=master&label=Stars&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
 [![GitHub watchers](https://img.shields.io/github/watchers/JaviRamosLab/Wikiquote-API?branch=master&label=Watchers&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
 [![GitHub release](https://img.shields.io/github/release/JaviRamosLab/Wikiquote-API.svg)](https://GitHub.com/JaviRamosLab/Wikiquote-API/releases/)
 [![GitHub commits](https://badgen.net/github/commits/JaviRamosLab/Wikiquote-API.js)](https://GitHub.com/JaviRamosLab/Wikiquote-API/commit/)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/JaviRamosLab/mediawiki)
-![GitHub milestones](https://img.shields.io/github/milestones/all/JaviRamosLab/mediawiki)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/JaviRamosLab/Wikiquote-API)
+![GitHub milestones](https://img.shields.io/github/milestones/all/JaviRamosLab/Wikiquote-API)
 ![GitHub repo size](https://img.shields.io/github/repo-size/JaviRamosLab/Wikiquote-API)
+![GitHub contributors](https://img.shields.io/github/contributors/JaviRamosLab/wikiquote-API)
 
-![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/JaviRamosLab/Wikiquote-API/master)
-![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/all-contributors/all-contributors/master)
+___Free unlimited quote API___
 
-sin branch
-[![GitHub forks](https://img.shields.io/github/forks/JaviRamosLab/Wikiquote-API&label=Forks&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat)]()
+Fetch info from Wikiquote API's 
 
+## Contents
+- [Badges](#Badges)
+- [Installation](#Installation)
+- [Demo](#Demo)
+- [API documentation](#API-documentation)
+- [Roadmap/Issues](#Roadmap/Issues)
+- [by language](#by-language)
+- [Contributing](#Contributing)
+- [CSS styles](#CSS-styles)
+- [Change log/versions](#Change-log/versions)
+- [Integrations](#Integrations)
+- [Quotation marks](#Quotation-marks)
+- [HTML tags and CSS](#HTML-tags-and-CSS)
+- [License](#License)
+- [Support me](#Support-me)
 
 ## Suport
 
 **Quote Of The Day (QOTD)**
 Active QOTD in languages:
 - [x] eo (https://eo.wikiquote.org/wiki/Vikicitaro:Citaĵo_de_la_tago)
-- [] en ()
-- []  it ()
+- [ ] en ()
+- [-]  it ()
 - [] es ()
 - [] pt ()
 - [] fr ()
@@ -49,8 +59,24 @@ Others projects
 - ar (https://ar.wikiquote.org/wiki/ويكي_الاقتباس:اقتباسات_مختارة)
 
 ## Installation
+in the HTML document were you want to see the QOTD
+```html
+<span id="eoWikiquote"></span>
+```
+id... ```enWikiquote```, ```esWikiquote```... or similar depending of the language.
+
+linking JavaScript (in the HTML document before &lt;/body&gt;)
+```html
+<script src="https://raw.githubusercontent.com/JaviRamosLab/wikiquote-API/main/eo-wikiquote.js"></script>
+```
+
+linking style
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/JaviRamosLab/wikiquote-API/main/css/style-1.css">
+```
 
 ### Demo
+[Demo EO](https://JaviRamosLab.github.io/Wikiquote-API)
 
 ## API documentation
 
@@ -84,48 +110,51 @@ https://es.wikiquote.org/w/api.php
 
 ## Roadmap/Issues
 If you have ideas for releases in the future, it is a good idea to list them in the README or open an Issue.
-[x] Basic fetch API
-[x] Quote info
-[x] Author info
-[] Tags info
-[] Img info
-[] Date info
-[] Bio info
-- &lt;lang&gt;-wikiquote.js al CDN
-- &lt;lang&gt;-wikiquote-full.js (all info: Quote, Author, Tags, Img, Date, Bio...)
-- Integration with oters API's
+- [x] Basic fetch API
+- [x] Quote info
+- [x] Author info
+- [ ] Tags info
+- [ ] Img info
+- [ ] Date info
+- [ ] Bio info
+- [ ] &lt;lang&gt;-wikiquote.js al CDN (milestone)
+- [ ] &lt;lang&gt;-wikiquote-full.js (all info: Quote, Author, Tags, Img, Date, Bio...) (milestone)
+- [ ] Integration with oters API's (milestone)
 - 
-- Telegram bot
+- [ ] Telegram bot (milestone)
 
 **Issues**
-- Ramdon quotes (365 days)
-- personalized quote list = create the subpage in your userpage (https://en.wikiquote.org/wiki/User:&lt;YourUsername&gt;/Wikiquote-API)
-- wikicode generator for your personalized list
-- Integration: QOTD + img from pixabay (elected by tags) + download button with html2canvas.js
+- [ ] Ramdon quotes (365 days) (milestone)
+- [ ] personalized quote list = create the subpage in your userpage (https://en.wikiquote.org/wiki/User:<YourUsername>/Wikiquote-API) (milestone)
+- [ ] wikicode generator for your personalized list (milestone)
+- [ ] Integration: QOTD + img from pixabay (elected by tags) + download button with html2canvas.js (milestone)
 
 
 ### by language
-[x] (eo) Esperanto wikiquote (eo-wikiquote.js) v0.1.0
-[] (en) Esperanto wikiquote (en-wikiquote.js)
-[] (es) Esperanto wikiquote (es-wikiquote.js)
-[] (it) italian wikiquote (it-wikiquote.js)
-[] (tr) Turkish wikiquote (https://tr.wikiquote.org/wiki/Vikisöz:Günün_sözü)
+- [x] #2 (eo) Esperanto wikiquote (eo-wikiquote.js) v0.1.0
+- [ ] #1 (en) Esperanto wikiquote (en-wikiquote.js)
+- [ ] #3 (es) Esperanto wikiquote (es-wikiquote.js)
+- [ ] (it) italian wikiquote (it-wikiquote.js)
+- [ ] (tr) Turkish wikiquote (tr-wikiquote.js)
 
 ## Contributing
-Open to contributions!
-- Contribute to the codebase and submit a pull request.
+Open to contributions!<!-- [Contribution guidelines for this project](/CONTRIBUTING.md) -->
+- Contribute to the Wikiquote-API and submit a pull request.
 - Suggest features you'd like to see (add new Issue)
 - Track bugs you've found
-- Add your own CSS style document at /styles
+- Improve the code
+- Add your own CSS style document at [/styles](/styles)
 
 ## CSS styles
 **Basic**
 - style/style-&lt;number&gt;.css
 - ```style/style-1.css```
+- [style-1](/styles/style-1.css)
 
 **For authors**
 - style/style-&lt;authorname&gt;-1.css
 - ```style/style-javiramoslab-1.css```
+- [style-javiramoslab-1](/styles/style-javiramoslab-1.css)
 
 ## Change log/versions
 v0.1.0
@@ -144,14 +173,15 @@ v1.0.0
 v2.0.0
 - CDN
 
-v2.0.0
+v3.0.0
 - Integration: pixabay
 
 
 
 
 
-## Usefull APIs
+## Integrations
+**Usefull APIs**
 
 APITemplate.io
 Dynamically generate images and PDFs from templates with a simple API
@@ -447,12 +477,19 @@ https://www.w3.org/International/questions/qa-lang-why
 ## Ĝeneralaj fontoj
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate
+
 https://www.w3.org/International/questions/qa-translate-flag
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLQuoteElement
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure
+
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
 
 
@@ -464,14 +501,15 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption
 
 
 ### Official Site
-[Web Site](http://javiramo.github.io/Wikiquote-API "Wikiquote-API Site")
+[javiramo.github.io/Wikiquote-API](http://javiramo.github.io/Wikiquote-API "Wikiquote-API Site")
 
 ## Authors and acknowledgment
 
-### Support me
-
 ## License
 [![licensebuttons by-sa](https://licensebuttons.net/l/by-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0)
+
+### Support me
+
 
 ### Show some ❤️ by starring some of the repositories!
 
