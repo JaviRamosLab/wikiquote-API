@@ -1,0 +1,31 @@
+#figEoWikiquote {
+    background-color: aquamarine;
+    color: brown;
+}
+
+#Citaĵo_CDLT {
+    color: rgb(51, 6, 253);
+}
+
+#Aŭtoro_CDLT {
+    font-size: 150%;
+    color: red;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}

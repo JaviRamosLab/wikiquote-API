@@ -1,0 +1,55 @@
+
+{
+
+    "parse": {
+        "title": "Vikicitaro:Citaĵo de la tago/1-a de septembro",
+        "pageid": 8405,
+        "revid": 38042,
+        "text": {
+            "*": "<div class=\"mw-parser-output\"><div id=\"toc\" style=\"padding:10px; font-size:101%;width:100%; background-color:#f4f4F5; -moz-border-radius:10px\"> \n  <table style=\"border-collapse: collapse;\" border=\"0\" width=\"100%\" bgcolor=\"#F4F4F5\">\n    <tbody><tr>\n      <td rowspan=\"2\" width=\"120px\">\n          <div id=\"toc\" style=\"width:120px; z-index=1;\"><span typeof=\"mw:File\"><a href=\"/wiki/Dosiero:Kin_Hubbard.jpg\" class=\"mw-file-description\" title=\"Kin Hubbard (1868 - 1930)\"><img alt=\"Kin Hubbard (1868 - 1930)\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kin_Hubbard.jpg/118px-Kin_Hubbard.jpg\" decoding=\"async\" width=\"118\" height=\"173\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kin_Hubbard.jpg/177px-Kin_Hubbard.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kin_Hubbard.jpg/236px-Kin_Hubbard.jpg 2x\" data-file-width=\"661\" data-file-height=\"969\"/></a></span>\n          </div>\n        </td>\n      <td style=\"vertical-align:top\" width=\"34px\">\n        <figure class=\"mw-halign-right\" typeof=\"mw:File\"><span title=\"«\"><img alt=\"«\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Left_pointing_double_angle_quotation_mark_sh1.svg/36px-Left_pointing_double_angle_quotation_mark_sh1.svg.png\" decoding=\"async\" width=\"36\" height=\"39\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Left_pointing_double_angle_quotation_mark_sh1.svg/54px-Left_pointing_double_angle_quotation_mark_sh1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Left_pointing_double_angle_quotation_mark_sh1.svg/72px-Left_pointing_double_angle_quotation_mark_sh1.svg.png 2x\" data-file-width=\"320\" data-file-height=\"350\"/></span><figcaption>«</figcaption></figure>\n      </td>\n      <td width=\"100%\">\n        <div style=\"text-align:center; font-weight: bold; color: #090960;\"><blockquote id=\"Citaĵo_CDLT\"><p><big><big>Ni ĉiuj ŝatus <a href=\"/wiki/Vo%C4%89dono\" title=\"Voĉdono\">voĉdoni</a> por la plej bona <a href=\"/wiki/Homo\" title=\"Homo\">homo</a>, sed li neniam kandidatiĝas.</big></big></p></blockquote></div>\n      </td>\n      <td style=\"vertical-align:bottom\" width=\"34px\" bgcolor=\"#F4F4F5\">\n        <figure class=\"mw-halign-left\" typeof=\"mw:File\"><span title=\"»\"><img alt=\"»\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Right_pointing_double_angle_quotation_mark_sh1.svg/36px-Right_pointing_double_angle_quotation_mark_sh1.svg.png\" decoding=\"async\" width=\"36\" height=\"39\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/de/Right_pointing_double_angle_quotation_mark_sh1.svg/54px-Right_pointing_double_angle_quotation_mark_sh1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/de/Right_pointing_double_angle_quotation_mark_sh1.svg/72px-Right_pointing_double_angle_quotation_mark_sh1.svg.png 2x\" data-file-width=\"320\" data-file-height=\"350\"/></span><figcaption>»</figcaption></figure>\n      </td>\n    </tr>\n    <tr>\n        <td colspan=\"3\" height=\"100%\">\n          <div style=\"margin-right: 50px; text-align:right\"><big id=\"Aŭtoro_CDLT\"><a href=\"/wiki/Kin_Hubbard\" title=\"Kin Hubbard\">Kin Hubbard</a> (1868 - 1930)</big><br/><small id=\"Bio_CDLT\">usona humuristo kaj ĵurnalisto</small></div>\n        </td>\n      </tr>\n  </tbody></table>\n</div><!--__DTHASLEDECONTENT__--><!--__DTEMPTYTALKPAGE__-->\n<!-- \nNewPP limit report\nParsed by mw1384\nCached time: 20230320170527\nCache expiry: 1814400\nReduced expiry: false\nComplications: [no‐toc‐conversion]\nDiscussionTools time usage: 0.006 seconds\nCPU time usage: 0.017 seconds\nReal time usage: 0.023 seconds\nPreprocessor visited node count: 37/1000000\nPost‐expand include size: 2020/2097152 bytes\nTemplate argument size: 272/2097152 bytes\nHighest expansion depth: 4/100\nExpensive parser function count: 0/500\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\nNumber of Wikibase entities loaded: 0/400\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    2.914      1 Ŝablono:Citaĵo_de_la_tago\n100.00%    2.914      1 -total\n-->\n\n<!-- Saved in parser cache with key eowikiquote:pcache:idhash:8405-0!thumbsize=0 and timestamp 20230320170527 and revision id 38042. Rendering was triggered because: page-view\n -->\n</div>"
+        },
+        "langlinks": [ ],
+        "categories": [ ],
+        "links": [
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Homo"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Kin Hubbard"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Voĉdono"
+            }
+        ],
+        "templates": [
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Ŝablono:Citaĵo de la tago"
+            }
+        ],
+        "images": [
+            "Kin_Hubbard.jpg",
+            "Left_pointing_double_angle_quotation_mark_sh1.svg",
+            "Right_pointing_double_angle_quotation_mark_sh1.svg"
+        ],
+        "externallinks": [ ],
+        "sections": [ ],
+        "parsewarnings": [ ],
+        "displaytitle": "<span class=\"mw-page-title-namespace\">Vikicitaro</span><span class=\"mw-page-title-separator\">:</span><span class=\"mw-page-title-main\">Citaĵo de la tago/1-a de septembro</span>",
+        "iwlinks": [ ],
+        "properties": [
+            {
+                "name": "unexpectedUnconnectedPage",
+                "*": -4
+            }
+        ]
+    }
+
+}

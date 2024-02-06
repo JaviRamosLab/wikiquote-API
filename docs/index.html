@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <nav></nav>
     <h1>Wikiquote API - Quote Of The Day (QOTD)</h1>
     <p>At the moment exist in 10 languages (en, it,es, eo, pt, fr, as, da, fa, sq)</p>
     <p>At the moment active in 6 languages (en, it,es, eo, pt, fr), unfinished in 4 (as, da, fa, sq)</p>
@@ -19,7 +20,7 @@
     <p><a href="https://en.wikiquote.org/wiki/Category:Quote_of_the_day">Category:Quote of the day</a></p>
     </p>
     <p>Endpoint:</p>
-    <code>https://en.wikiquote.org/w/api.php?format=json&action=parse&page=Template:QoD</code>
+    <code>https://en.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Template:QoD</code>
 
     <h2>Spanish Wikiquote (es.wikiquote.org)</h2>
     <p>Spanish wikiquote (Quote Of The Day) API call</p>
@@ -30,8 +31,8 @@
     <p><a href="https://es.wikiquote.org/wiki/Categoría:Wikiquote:Frase_del_día">Categoría:Wikiquote:Frase del día</a></p>
     <p>Endpoint:</p>
     <code>{{Frase-{{CURRENTDAYNAME}}}}</code>
-    <code></code>
-    <code>https://es.wikiquote.org/w/api.php?format=json&action=parse&page=Wikiquote:Frase_del_día/Frase_del_día</code>
+    <br>
+    <code>https://es.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Wikiquote:Frase_del_día/Frase_del_día</code>
 
     <h2>Esperanto Wikiquote (eo.wikiquote.org)</h2>
     <p>Esperanto wikiquote (Quote Of The Day) API call</p>
@@ -39,8 +40,7 @@
     <p>Today QOTD <a href="https://eo.wikiquote.org/wiki/Vikicitaro:Citaĵo_de_la_tago/CDLT">Vikicitaro:Citaĵo_de_la_tago/CDLT</a>
     </p>
     <p>Endpoint:</p>
-    <!-- <code>https://eo.wikiquote.org/w/api.php?action=parse&text={{Vikicitaro:Citaĵo_de_la_tago/CDLT}}&format=json</code> -->
-    <code>https://eo.wikiquote.org/w/api.php?format=json&action=parse&page=Vikicitaro:Citaĵo_de_la_tago/CDLT</code>
+    <code>https://eo.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Vikicitaro:Citaĵo_de_la_tago/CDLT</code>
 
     <h2>it</h2>
     <p>Categoria:Servizi - Citazione del giorno</p>
@@ -53,7 +53,7 @@
 
     <p><a href="https://it.wikiquote.org/wiki/Template:Qotd">Template:Qotd</a></p>
     <p>Endpoint:</p>
-    <code>https://it.wikiquote.org/w/api.php?format=json&action=parse&page=Template:Qotd</code>
+    <code>https://it.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Template:Qotd</code>
 
     <h2>fr</h2>
     <p>Wikiquote:Citation du jour</p>
@@ -65,7 +65,7 @@
     <p>Modèle:Citation du jour</p>
     <p><a href="https://fr.wikiquote.org/wiki/Modèle:Citation_du_jour">Modèle:Citation du jour</a></p>
     <p>Endpoint:</p>
-    <code>https://fr.wikiquote.org/w/api.php?format=json&action=parse&page=Modèle:Citation_du_jour</code>
+    <code>https://fr.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Modèle:Citation_du_jour</code>
 
 
     <h2>pt</h2>
@@ -78,7 +78,7 @@
     <p>Endpoint:</p>
     <code>{{frase do dia/{{CURRENTDAY}} de {{CURRENTMONTHNAME}}}}</code>
     <code>https://pt.wikiquote.org/wiki/Predefinição:Frase_do_dia/1_de_janeiro</code>
-    <code>https://pt.wikiquote.org/w/api.php?format=json&action=parse&page=Wikiquote:Frase_do_dia</code>
+    <code>https://pt.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Wikiquote:Frase_do_dia</code>
 
 
     <h2>zh</h2>
@@ -88,7 +88,7 @@
     <p></p>
     <p><a href="https://zh.wikiquote.org/wiki/Template:Qotd">Template:Qotd</a></p>
     <p>Endpoint:</p>
-    <code>https://zh.wikiquote.org/w/api.php?format=json&action=parse&page=Template:Qotd</code>
+    <code>https://zh.wikiquote.org/w/api.php?format=json&origin=*&action=parse&page=Template:Qotd</code>
 
 
     <h1>Others</h1>
@@ -114,10 +114,8 @@
     <li>ar - <a href="https://ar.wikiquote.org/wiki/ويكي_الاقتباس:اقتباسات_مختارة">ar</a></li>
     <br>
 
-    <footer>
-        
-    </footer>
 
+    <footer></footer>
     <script src="js/app.js"></script>
     <a href="https://github.com/javiramoslab/Wikiquote-API" class="github-corner" aria-label="View source on GitHub">
         <svg width="80" height="80" viewBox="0 0 250 250" style="position: absolute; top: 0px; right: 0px; border: 0px;" aria-hidden="true">

@@ -30,8 +30,8 @@ if(day == 6) titulo='{{Plantilla:Frase-sábado}}';
 
 
 
-//  url = 'http://es.wikiquote.org/w/api.php?action=parse&text='+titulo+'&format=json&callback=pon_frase_en_span';
- url = 'json/es.wikiquote.org_api-result.json';
+ url = 'http://es.wikiquote.org/w/api.php?action=parse&text='+titulo+'&format=json&callback=pon_frase_en_span';
+//  url = 'json/es.wikiquote.org_api-result.json';
 
  var elem = document.createElement ('script');
  elem.setAttribute ('src', url);

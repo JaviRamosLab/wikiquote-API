@@ -220,6 +220,46 @@ API for image and video storage and manipulation - free for up to 75,000 images 
 ## Quotation marks
 https://symbl.cc/en/collections/quotation-marks/
 
+Style by language/country
+- “ ”English double.
+- ‘ ’English Single.
+- « »French "Christmas trees".
+- „ “German "paws".
+- „ ”Polish.
+- » «Swedish reverse.
+- " "Double universal.
+
+Quantity of characters: 25
+- «
+- ‹
+- »
+- ›
+- „
+- “
+- ‟
+- ”
+- ’
+- "
+- ❝
+- ❞
+- ❮
+- ❯
+- ⹂
+- 〝
+- 〞
+- 〟
+- ＂
+- ‚
+- ‘
+- ‛
+- ❛
+- ❜
+- ❟
+
+
+
+
+
 ## HTML tags and CSS
 Aditional info and comments about HTML tags ```<blockquote> <q> <cite> <poem>``` and CSS ```lang="en" hreflang="en" translate="no" :lang()```
 

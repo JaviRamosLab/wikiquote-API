@@ -1,0 +1,144 @@
+{
+    "parse": {
+        "title": "Template:Qotd",
+        "pageid": 5,
+        "revid": 1124628,
+        "text": {
+            "*": "<div class=\"mw-parser-output\"><p><br /> \n</p>\n <div class=\"toccolours\" style=\"text-align: center;\"><b>Template protetto</b> \u2013 Le modifiche possono essere proposte nella <a href=\"/w/index.php?title=Discussioni_template:Qotd&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Discussioni template:Qotd (la pagina non esiste; clicca per crearla)\">pagina di discussione</a>.</div><style data-mw-deduplicate=\"TemplateStyles:r1074460\">.mw-parser-output .main-page-qotd>div:last-of-type{padding:1em 0;text-align:center}.mw-parser-output .main-page-responsive-columns{display:flex;flex-wrap:wrap;justify-content:space-between}.mw-parser-output .main-page-heading{background-color:#b0c4de;border-radius:0.3em;font-size:150%;padding:0.3em}.mw-parser-output .main-page-responsive-columns>div:first-of-type .main-page-heading{background-color:#e6e6fa}@media all and (min-width:900px){.mw-parser-output .main-page-qotd{background-color:#f8f8fe;border:1px solid #a7d7f9;border-radius:1em;margin:1em 0}.mw-parser-output .main-page-qotd>div:last-of-type{padding:1em 5em 0.5em}.mw-parser-output .main-page-qotd>.main-page-heading{display:none}.mw-parser-output .main-page-responsive-columns>div{border:1px solid #a7d7f9;border-radius:10px;padding:15px}.mw-parser-output .main-page-responsive-columns>div:first-of-type{flex:2.4 1;margin-right:15px}.mw-parser-output .main-page-responsive-columns>div:last-of-type{background-color:#f5faff;flex:1 1}}@media all and (max-width:900px){.mw-parser-output .nomobile,.mw-parser-output .main-page-community,.mw-parser-output .main-page-sister-projects{display:none}.mw-parser-output .main-page-responsive-columns{flex-direction:column-reverse}}</style><div class=\"main-page-qotd\">\n<div class=\"nomobile\" style=\"background:#E6E6FA; border-bottom:1px solid #a7d7f9; border-radius:1em; padding:0.5em 1em; text-align:center;\"><span style=\"float:left; position:relative; left:0; top:15px; font-family:Times, Times New Roman, serif, Georgia; font-size:60px; color:SlateBlue;\"><b>\u201c</b></span> <span typeof=\"mw:File\"><a href=\"/wiki/File:Wikiquote-logo.svg\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/20px-Wikiquote-logo.svg.png\" decoding=\"async\" width=\"20\" height=\"24\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/30px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/40px-Wikiquote-logo.svg.png 2x\" data-file-width=\"300\" data-file-height=\"355\" /></a></span> <b><a href=\"/wiki/Wikiquote:Archivio_delle_citazioni_del_giorno\" title=\"Wikiquote:Archivio delle citazioni del giorno\">Citazione del giorno</a></b> <span style=\"float:right; position:relative; left:0; top:-20px; font-family:Times, Times New Roman, serif, Georgia; font-size:60px; color:SlateBlue;\"><b>\u201e</b></span>\n</div>\n<div class=\"main-page-heading\">Citazione del giorno</div>\n<div><span style=\"line-height:10px; font-size:26px; font-family:Times, Times New Roman, serif, Georgia; color: #ccf;\"><b>\u201c</b></span><span style=\"line-height:20px; color:black;font-variant:normal;\"><i><span style=\"font-size:130%;\">D</span>ella vita non bisogna temere nulla. Bisogna solo capire.</i></span><span style=\"line-height:10px; font-size:26px; font-family:Times, Times New Roman, serif, Georgia; color: #ccf;\"><b>\u201e</b></span><br /> <span typeof=\"mw:File\"><a href=\"/wiki/File:Nobel_prize_medal.svg\" class=\"mw-file-description\" title=\"Medaglia del Premio Nobel\"><img alt=\"Medaglia del Premio Nobel\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nobel_prize_medal.svg/28px-Nobel_prize_medal.svg.png\" decoding=\"async\" width=\"28\" height=\"28\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nobel_prize_medal.svg/42px-Nobel_prize_medal.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/32/Nobel_prize_medal.svg/56px-Nobel_prize_medal.svg.png 2x\" data-file-width=\"150\" data-file-height=\"150\" /></a></span> <b><a href=\"/wiki/Marie_Curie\" title=\"Marie Curie\">Marie Curie</a></b></div>\n</div>\n<p><b><a href=\"/wiki/Template:Qotd/Pagina_di_test\" title=\"Template:Qotd/Pagina di test\">Pagina di test</a></b> - simula la visualizzazione in pagina principale\n</p>\n<!-- \nNewPP limit report\nParsed by mw1379\nCached time: 20230914225630\nCache expiry: 83011\nReduced expiry: true\nComplications: []\nCPU time usage: 0.060 seconds\nReal time usage: 0.086 seconds\nPreprocessor visited node count: 277/1000000\nPost\u2010expand include size: 2619/2097152 bytes\nTemplate argument size: 378/2097152 bytes\nHighest expansion depth: 13/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post\u2010expand size: 1341/5000000 bytes\nLua time usage: 0.004/10.000 seconds\nLua memory usage: 649163/52428800 bytes\nNumber of Wikibase entities loaded: 0/400\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   73.938      1 -total\n 33.71%   24.924      1 Template:LangSwitch\n 28.14%   20.803      1 Template:Qotd/15settembre\n 25.47%   18.829      1 Template:Cdg\n 19.26%   14.244      1 Template:Protetta\n 12.45%    9.206      2 Template:Icona_del_titolo\n  5.65%    4.178      1 Template:GetFallback2\n  4.17%    3.083      1 Template:GetFallback\n-->\n\n<!-- Saved in parser cache with key itwikiquote:pcache:idhash:5-0!userlang=eo and timestamp 20230914225630 and revision id 1124628. Rendering was triggered because: api-parse\n -->\n</div>"
+        },
+        "langlinks": [
+            {
+                "lang": "en",
+                "url": "https://en.wikiquote.org/wiki/Template:Qotd",
+                "langname": "angla",
+                "autonym": "English",
+                "*": "Template:Qotd"
+            },
+            {
+                "lang": "zh",
+                "url": "https://zh.wikiquote.org/wiki/Template:Qotd",
+                "langname": "\u0109ina",
+                "autonym": "\u4e2d\u6587",
+                "*": "Template:Qotd"
+            }
+        ],
+        "categories": [
+            {
+                "sortkey": "",
+                "hidden": "",
+                "*": "Pagine_protette"
+            },
+            {
+                "sortkey": "",
+                "hidden": "",
+                "*": "Template_protetti"
+            },
+            {
+                "sortkey": "",
+                "*": "Tutte_le_citazioni_del_giorno"
+            },
+            {
+                "sortkey": "",
+                "*": "Template_pagina_principale"
+            },
+            {
+                "sortkey": "",
+                "*": "Servizi_-_Citazione_del_giorno"
+            }
+        ],
+        "links": [
+            {
+                "ns": 4,
+                "exists": "",
+                "*": "Wikiquote:Politica di protezione delle pagine"
+            },
+            {
+                "ns": 4,
+                "exists": "",
+                "*": "Wikiquote:Archivio delle citazioni del giorno"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Marie Curie"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Qotd/Pagina di test"
+            },
+            {
+                "ns": 11,
+                "*": "Discussioni template:Qotd"
+            }
+        ],
+        "templates": [
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Protetta"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Icona del titolo"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Pagina principale/styles.css"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:LangSwitch"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:GetFallback"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:GetFallback2"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Qotd/15settembre"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Cdg"
+            },
+            {
+                "ns": 828,
+                "exists": "",
+                "*": "Modulo:Qotd"
+            }
+        ],
+        "images": [
+            "Crystal_Clear_action_lock1.png",
+            "Crystal_Clear_action_lock9.png",
+            "Wikiquote-logo.svg",
+            "Nobel_prize_medal.svg"
+        ],
+        "externallinks": [],
+        "sections": [],
+        "parsewarnings": [],
+        "displaytitle": "<span class=\"mw-page-title-namespace\">Template</span><span class=\"mw-page-title-separator\">:</span><span class=\"mw-page-title-main\">Qotd</span>",
+        "iwlinks": [],
+        "properties": [
+            {
+                "name": "expectedUnconnectedPage",
+                "*": ""
+            },
+            {
+                "name": "wikibase_item",
+                "*": "Q21710912"
+            }
+        ]
+    }
+}

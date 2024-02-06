@@ -1,0 +1,79 @@
+{
+    "parse": {
+        "title": "Template:QoD",
+        "pageid": 94955,
+        "revid": 2859543,
+        "text": {
+            "*": "<div class=\"mw-parser-output\"><div style=\"width:55%; background-color:#fff3f3; border:1px solid #ffc9c9;padding:1em;padding-top:0.5em; color: black\">\n<table style=\"background: &#123;&#123;&#123;color&#125;&#125;&#125;\">\n<tbody><tr>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Woody_Guthrie_2.jpg\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Woody_Guthrie_2.jpg/252px-Woody_Guthrie_2.jpg\" decoding=\"async\" width=\"252\" height=\"232\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Woody_Guthrie_2.jpg/378px-Woody_Guthrie_2.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/09/Woody_Guthrie_2.jpg/504px-Woody_Guthrie_2.jpg 2x\" data-file-width=\"3152\" data-file-height=\"2907\" /></a></span>\n</td>\n<td align=\"center\">&#160;\n</td>\n<td align=\"center\">\n<table style=\"text-align:center; width:100%\">\n<tbody><tr>\n<td><a href=\"/wiki/Work\" title=\"Work\">Work</a> and <a href=\"/wiki/Play\" title=\"Play\">play</a> are an artificial pair of opposites, because the best kind of play contains an element of work, and the most <a href=\"/wiki/Productive\" class=\"mw-redirect\" title=\"Productive\">productive</a> kind of work must include something of the <a href=\"/wiki/Spirit\" title=\"Spirit\">spirit</a> of play.\n</td></tr>\n<tr>\n<td style=\"font-size:smaller;\">~ <a href=\"/wiki/Sydney_J._Harris\" title=\"Sydney J. Harris\">Sydney J. Harris</a> ~\n</td></tr></tbody></table>\n</td>\n<td align=\"center\">&#160;\n</td>\n<td align=\"center\"><span typeof=\"mw:File\"><a href=\"/wiki/File:Dictator_charlie9.jpg\" class=\"mw-file-description\"><img src=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dictator_charlie9.jpg/321px-Dictator_charlie9.jpg\" decoding=\"async\" width=\"321\" height=\"233\" class=\"mw-file-element\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dictator_charlie9.jpg/482px-Dictator_charlie9.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Dictator_charlie9.jpg/642px-Dictator_charlie9.jpg 2x\" data-file-width=\"704\" data-file-height=\"512\" /></a></span>\n</td></tr></tbody></table>\n</div>\n<!-- \nNewPP limit report\nParsed by mw1354\nCached time: 20230914222417\nCache expiry: 5744\nReduced expiry: true\nComplications: []\nCPU time usage: 0.011 seconds\nReal time usage: 0.020 seconds\nPreprocessor visited node count: 20/1000000\nPost\u2010expand include size: 877/2097152 bytes\nTemplate argument size: 240/2097152 bytes\nHighest expansion depth: 5/100\nExpensive parser function count: 1/500\nUnstrip recursion depth: 0/20\nUnstrip post\u2010expand size: 0/5000000 bytes\nNumber of Wikibase entities loaded: 0/400\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    6.002      1 -total\n100.00%    6.002      1 Wikiquote:Quote_of_the_day/September_14,_2023\n 42.25%    2.536      1 Template:Quote_of_the_day\n-->\n\n<!-- Saved in parser cache with key enwikiquote:pcache:idhash:94955-0!canonical and timestamp 20230914222417 and revision id 2859543. Rendering was triggered because: page-view\n -->\n</div>"
+        },
+        "langlinks": [
+            {
+                "lang": "as",
+                "url": "https://as.wikiquote.org/wiki/%E0%A6%B8%E0%A6%BE%E0%A6%81%E0%A6%9A:%E0%A6%86%E0%A6%9C%E0%A6%BF%E0%A7%B0_%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%83%E0%A6%A4%E0%A6%BF",
+                "langname": "asama",
+                "autonym": "\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be",
+                "*": "\u09b8\u09be\u0981\u099a:\u0986\u099c\u09bf\u09f0 \u0989\u09a6\u09cd\u09a7\u09c3\u09a4\u09bf"
+            }
+        ],
+        "categories": [
+            {
+                "sortkey": "QoD",
+                "*": "Quote_of_the_day"
+            }
+        ],
+        "links": [
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Sydney J. Harris"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Play"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Productive"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Spirit"
+            },
+            {
+                "ns": 0,
+                "exists": "",
+                "*": "Work"
+            }
+        ],
+        "templates": [
+            {
+                "ns": 4,
+                "exists": "",
+                "*": "Wikiquote:Quote of the day/September 14, 2023"
+            },
+            {
+                "ns": 10,
+                "exists": "",
+                "*": "Template:Quote of the day"
+            }
+        ],
+        "images": [
+            "Woody_Guthrie_2.jpg",
+            "Dictator_charlie9.jpg"
+        ],
+        "externallinks": [],
+        "sections": [],
+        "parsewarnings": [],
+        "displaytitle": "<span class=\"mw-page-title-namespace\">Template</span><span class=\"mw-page-title-separator\">:</span><span class=\"mw-page-title-main\">QoD</span>",
+        "iwlinks": [],
+        "properties": [
+            {
+                "name": "wikibase_item",
+                "*": "Q117802255"
+            }
+        ]
+    }
+}
